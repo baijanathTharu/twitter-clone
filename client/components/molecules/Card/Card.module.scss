@@ -1,0 +1,61 @@
+@import '../../../styles/partials/variables';
+@import '../../../styles/partials/mixins';
+
+
+.card {
+  margin: 2rem 0.5rem;
+  border: 1px solid $clr-text-secondary;
+  border-radius: 20px;
+
+  h2 {
+    margin: 1rem 0.75rem;
+    @include setFontSize('2xl');
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .show_more {
+    padding: 1rem 1.5rem;
+    color: $clr-icon-primary;
+    @include setFontSize('lg');
+  }
+}
+
+.topic {
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+  border-top: 1px solid $clr-text-secondary;
+  padding: 1rem 1.5rem;
+
+  &:hover {
+    cursor: pointer;
+    background: $clr-bg-secondary;
+  }
+
+  &:last-child {
+    border-bottom: 1px solid $clr-text-secondary;
+    ;
+  }
+
+  .name {
+    flex: 1;
+
+    h3 {
+      @include setFontSize('lg');
+    }
+  }
+
+  .follow {}
+
+  .cross {
+    width: 20px;
+    height: 20px;
+
+    svg {
+      fill: $clr-text-secondary;
+    }
+  }
+}

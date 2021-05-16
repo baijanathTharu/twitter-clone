@@ -1,4 +1,4 @@
-import { LeftSidebar } from '../components/molecules';
+import { LeftSidebar, RightSidebar } from '../components/molecules';
 import styles from '../styles/pages/Home.module.scss';
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
       <main>
         <div className={styles.feed}></div>
         <div className={styles.right_sidebar}>
-          <p>right sidebar</p>
+          <RightSidebar />
         </div>
       </main>
     </div>

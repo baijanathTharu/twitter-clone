@@ -11,3 +11,4 @@ export { SettingIcon } from './SettingIcon';
 export { SearchIcon } from './SearchIcon';
 export { ExpandIcon } from './ExpandIcon';
 export { SimpleMoreIcon } from './SimpleMoreIcon';
+export { CrossIcon } from './CrossIcon';

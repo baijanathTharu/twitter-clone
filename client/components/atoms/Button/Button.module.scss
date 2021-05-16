@@ -12,3 +12,14 @@
   color: $clr-text-primary;
   @include setFontSize('xl');
 }
+
+.secondary_button {
+  padding: 0.7rem 1.8rem;
+  background: transparent;
+  width: fit-content;
+  border: 1px solid $clr-icon-primary;
+  color: $clr-icon-primary;
+  border-radius: 999px;
+  @include setFontSize('sm');
+
+}

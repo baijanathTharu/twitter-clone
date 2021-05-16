@@ -1,0 +1,11 @@
+@import '../../../styles/partials/variables';
+@import '../../../styles/partials/mixins';
+
+.right_sidebar {
+
+  // background: red;
+  .search {
+    margin: 1rem auto;
+    width: 95%;
+  }
+}

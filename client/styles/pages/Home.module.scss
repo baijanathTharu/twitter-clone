@@ -1,11 +1,14 @@
 @import '../partials/variables';
 
 .container {
+  max-width: 1300px;
   width: 80%;
   margin: 0 auto;
   font-family: 'Roboto-Regular';
   display: grid;
-  grid-template-columns: 350px 850px;
+  grid-template-columns: 350px 950px;
+  justify-content: center;
+  // grid-template-columns: 1fr 2fr;
   column-gap: 20px;
 
 
@@ -16,21 +19,26 @@
     // left: 0;
     background: $clr-bg-secondary;
     z-index: 3;
-    border: 1px solid #eee;
+    max-width: $sidebar-size;
+    // border: 1px solid #eee;
   }
 
   main {
     // padding-left: $sidebar-size;
     display: grid;
     grid-template-columns: 600px 350px;
+    // grid-template-columns: 2fr 1fr;
     column-gap: 20px;
 
     .feed {
       background: $clr-bg-primary;
+      max-width: 600px;
+      border: 1px solid #eee;
+      ;
     }
 
     .right_sidebar {
-      width: $sidebar-size;
+      max-width: $sidebar-size;
       height: 100vh;
       position: sticky;
       top: 0;
@@ -38,7 +46,7 @@
       background: $clr-bg-secondary;
       z-index: 3;
       color: white;
-      border: 1px solid #eee;
+      // border: 1px solid #eee;
     }
   }
 
