@@ -1,0 +1,11 @@
+@mixin responseToSizeAbove($size) {
+  @media (min-width: $size) {
+    @content;
+  }
+}
+
+@mixin responseToSizeBelow($size) {
+  @media (max-width: $size) {
+    @content;
+  }
+}
