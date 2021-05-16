@@ -1,0 +1,62 @@
+@import '../../../styles/partials/variables';
+@import '../../../styles/partials/mixins';
+
+.container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  width: 300px;
+  margin-left: auto;
+
+  .logo {
+    margin: 1.5rem 0;
+  }
+
+  .navLinks {
+    margin-bottom: 2rem;
+
+    .navItem {
+      display: flex;
+      align-items: center;
+      gap: 0.9rem;
+      margin: 1.25rem 0;
+
+      h2 {
+        color: $clr-text-primary;
+        @include setFontSize('2-xl');
+      }
+    }
+  }
+
+  .tweetBtn {
+    flex: 1;
+    margin-bottom: 2rem;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+
+    .image {
+      img {
+        border-radius: 999px;
+      }
+    }
+
+    h3 {
+      color: $clr-text-primary;
+      @include setFontSize('lg');
+      line-height: 1;
+    }
+
+    p {
+      color: $clr-text-secondary;
+      @include setFontSize('xs');
+      line-height: 1;
+    }
+  }
+}

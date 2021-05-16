@@ -1,5 +1,5 @@
 # Twitter Clone
 
-## Backend: api
+## Backend: [api](https://github.com/baijanathTharu/twitter-clone/tree/main/api)
 
-## Frontend: client
+## Frontend: [client](https://github.com/baijanathTharu/twitter-clone/tree/main/client)

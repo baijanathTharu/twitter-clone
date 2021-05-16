@@ -1,0 +1,14 @@
+@import '../../../styles/partials/variables';
+@import '../../../styles//partials/mixins';
+
+.button {
+  // margin: 1rem 0;
+  background: $clr-icon-primary;
+  width: 200px;
+  height: auto;
+  padding: 0.7rem 1.8rem;
+  border-radius: 999px;
+  border: 0;
+  color: $clr-text-primary;
+  @include setFontSize('xl');
+}

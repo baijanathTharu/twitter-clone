@@ -1,0 +1,14 @@
+@import '../../../styles/partials/variables';
+@import '../../../styles/partials/mixins';
+
+$icon-size: 40px;
+
+.container {
+  max-width: $icon-size;
+  width: $icon-size;
+  height: $icon-size;
+
+  svg {
+    fill: $clr-icon-secondary;
+  }
+}

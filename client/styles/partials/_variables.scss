@@ -1,9 +1,11 @@
+$sidebar-size: 400px;
 /* colors */
 $clr-icon-primary: rgb(29, 161, 242);
+$clr-icon-secondary: rgb(217, 217, 217);
 $clr-text-primary: rgb(217, 217, 217);
 $clr-text-secondary: rgb(110, 118, 125);
-$clr-bg-primary: rgb(0, 0, 0);
-$clr-bg-secondary: rgb(21, 24, 28);
+$clr-bg-primary: rgb(21, 32, 43);
+$clr-bg-secondary: rgb(21, 32, 43);
 
 /* screen sizes */
 $screen-sm: 640px;
@@ -11,3 +13,26 @@ $screen-md: 768px;
 $screen-lg: 1024px;
 $screen-xl: 1280px;
 $screen-2xl: 1536px;
+
+/* font sizes  */
+$font-sizes: ("text-xs": 0.75rem,
+  "sm": 0.875rem,
+  "base": 1rem,
+  "lg": 1.125rem,
+  "xl": 1.25rem,
+  "2xl": 1.5rem,
+  "3xl": 1.875rem,
+  "4xl": 2.25rem,
+  "5xl": 3rem);
+
+/* line-heights */
+$line-heights: ("line-height-xs": 1rem,
+  "sm": 1.25rem,
+  "base": 1.5rem,
+  "lg": 1.75rem,
+  "xl": 1.75rem,
+  "2xl": 2rem,
+  "3xl": 2.25rem,
+  "4xl": 2.5rem,
+  "5xl": 1,
+);
