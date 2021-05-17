@@ -1,0 +1,58 @@
+@import '../../../styles/partials/variables';
+@import '../../../styles/partials/mixins';
+
+.tweet_card {
+  padding: 1rem;
+  display: flex;
+  column-gap: 20px;
+  border-bottom: 1px solid $clr-text-secondary;
+
+  &:hover {
+    background: $clr-bg-primary-opacity;
+  }
+
+  .avatar {
+    padding-top: 0.5rem;
+
+    img {
+      border-radius: 100%;
+    }
+  }
+
+  .tweet {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    .user {
+      h2 {
+        color: $clr-text-primary;
+        text-transform: capitalize;
+        @include setFontSize('lg');
+
+        span {
+          padding-left: 0.5rem;
+          color: $clr-text-secondary;
+          @include setFontSize('sm');
+        }
+      }
+    }
+
+    .description {
+      p {
+        color: $clr-text-primary;
+        margin: 1rem 0;
+      }
+    }
+  }
+
+  .more {
+    width: 30px;
+
+    svg {
+      width: 30px;
+      height: 30px;
+      fill: $clr-icon-secondary;
+    }
+  }
+}
