@@ -1,4 +1,4 @@
-import styles from './Card.module.scss';
+import styles from './TopicCard.module.scss';
 import { Button, SecondaryButton } from '../../atoms';
 import { CrossIcon } from '../../icons';
 
@@ -27,7 +27,7 @@ export function Topic({ name }) {
   );
 }
 
-export function Card() {
+export function TopicCard() {
   return (
     <div className={styles.card}>
       <h2>Topics To Follow</h2>

@@ -1,5 +1,5 @@
 import { SearchForm } from '../../atoms';
-import { Card } from '../Card';
+import { TopicCard } from '../TopicCard';
 import styles from './RightSidebar.module.scss';
 
 export function RightSidebar() {
@@ -9,7 +9,7 @@ export function RightSidebar() {
         <SearchForm />
       </div>
       <div className='topics'>
-        <Card />
+        <TopicCard />
       </div>
     </div>
   );
